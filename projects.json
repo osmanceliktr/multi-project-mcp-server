@@ -1,0 +1,27 @@
+{
+  "frontend": {
+    "path": "D:/My Project/client",
+    "type": "react",
+    "agent": "antigravity"
+  },
+  "backend": {
+    "path": "D:/my-project-api-v2",
+    "type": "node",
+    "agent": "antigravity"
+  },
+  "baileys": {
+    "path": "D:/WhatsappBaileys/backend",
+    "type": "node",
+    "agent": "antigravity"
+  },
+  "meta": {
+    "path": "D:/Crm-Meta",
+    "type": "php",
+    "agent": "antigravity"
+  },
+  "root": {
+    "path": "D:/WhatsappBaileys/frontend",
+    "type": "react",
+    "agent": "antigravity"
+  }
+}

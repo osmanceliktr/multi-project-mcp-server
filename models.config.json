@@ -1,0 +1,167 @@
+{
+  "models": [
+    {
+      "id": "gemini-3.1-pro-high",
+      "name": "Gemini 3.1 Pro (High)",
+      "provider": "google",
+      "tier": "high",
+      "capabilities": [
+        "code",
+        "analysis",
+        "planning",
+        "thinking"
+      ],
+      "speed": "slow",
+      "quality": "highest",
+      "recommended_for": [
+        "planner",
+        "executor"
+      ]
+    },
+    {
+      "id": "gemini-3.1-pro-low",
+      "name": "Gemini 3.1 Pro (Low)",
+      "provider": "google",
+      "tier": "low",
+      "capabilities": [
+        "code",
+        "analysis"
+      ],
+      "speed": "medium",
+      "quality": "high",
+      "recommended_for": [
+        "executor"
+      ]
+    },
+    {
+      "id": "gemini-3-flash",
+      "name": "Gemini 3 Flash",
+      "provider": "google",
+      "tier": "fast",
+      "capabilities": [
+        "code",
+        "analysis"
+      ],
+      "speed": "fast",
+      "quality": "medium",
+      "recommended_for": [
+        "planner",
+        "executor"
+      ]
+    },
+    {
+      "id": "claude-sonnet-4.6-thinking",
+      "name": "Claude Sonnet 4.6 (Thinking)",
+      "provider": "anthropic",
+      "tier": "thinking",
+      "capabilities": [
+        "code",
+        "analysis",
+        "planning",
+        "thinking",
+        "reasoning"
+      ],
+      "speed": "medium",
+      "quality": "high",
+      "recommended_for": [
+        "planner",
+        "executor"
+      ]
+    },
+    {
+      "id": "claude-opus-4.6-thinking",
+      "name": "Claude Opus 4.6 (Thinking)",
+      "provider": "anthropic",
+      "tier": "thinking-max",
+      "capabilities": [
+        "code",
+        "analysis",
+        "planning",
+        "thinking",
+        "reasoning",
+        "complex"
+      ],
+      "speed": "slow",
+      "quality": "highest",
+      "recommended_for": [
+        "planner",
+        "executor"
+      ]
+    },
+    {
+      "id": "gpt-oss-120b-medium",
+      "name": "GPT-OSS 120B (Medium)",
+      "provider": "openai-oss",
+      "tier": "medium",
+      "capabilities": [
+        "code",
+        "analysis"
+      ],
+      "speed": "medium",
+      "quality": "high",
+      "recommended_for": [
+        "executor"
+      ]
+    },
+    {
+      "id": "groq-llama-3.3-70b",
+      "name": "Llama 3.3 70B (Groq)",
+      "provider": "groq",
+      "groqModelId": "llama-3.3-70b-versatile",
+      "tier": "fast",
+      "capabilities": [
+        "code",
+        "analysis",
+        "planning"
+      ],
+      "speed": "fast",
+      "quality": "high",
+      "recommended_for": [
+        "planner"
+      ]
+    },
+    {
+      "id": "groq-llama-4-scout",
+      "name": "Llama 4 Scout 17B (Groq)",
+      "provider": "groq",
+      "groqModelId": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "tier": "fast",
+      "capabilities": [
+        "code",
+        "analysis",
+        "planning"
+      ],
+      "speed": "fast",
+      "quality": "medium",
+      "recommended_for": [
+        "planner"
+      ]
+    },
+    {
+      "id": "groq-qwen3-32b",
+      "name": "Qwen3 32B (Groq)",
+      "provider": "groq",
+      "groqModelId": "qwen/qwen3-32b",
+      "tier": "fast",
+      "capabilities": [
+        "code",
+        "analysis",
+        "planning"
+      ],
+      "speed": "fast",
+      "quality": "high",
+      "recommended_for": [
+        "planner"
+      ]
+    }
+  ],
+  "active": {
+    "planner": "groq-qwen3-32b",
+    "executor": "gemini-3-flash"
+  },
+  "settings": {
+    "auto_refresh": true,
+    "fallback_to_gemini_cli": true,
+    "log_model_usage": true
+  }
+}
