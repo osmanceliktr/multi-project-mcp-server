@@ -107,3 +107,6 @@ Sunucu başlatıldığında istemcilere aşağıdaki araçlar sunulur:
 *   **@modelcontextprotocol/sdk** (MCP entegrasyonu için)
 *   **Zod** (Şema validasyonları için)
 *   **Dotenv** (Çevresel değişken yönetimi)
+
+# This repository functions as a Model Context Protocol (MCP) Server and a CLI-based AI Agent Orchestrator.
+# Bu depo, Model Bağlam Protokolü (MCP) Sunucusu ve CLI tabanlı Yapay Zeka Ajanı Orkestratörü olarak işlev görmektedir.
